@@ -148,8 +148,6 @@ max_profits_cex_dex = np.array(max_profits_cex_dex)
 max_profits_bridge_dex_mc = np.array(max_profits_bridge_dex_mc)
 
 prof_diff_dex_dex_to_bridge_dex = max_profits_dex_dex - max_profits_bridge_dex_mc
-prof_diff_cex_dex_to_bridge_dex = max_profits_cex_dex - max_profits_bridge_dex_mc
-prof_diff_cex_dex_to_dex_dex = max_profits_cex_dex - max_profits_dex_dex
 
 # Save the results to a CSV file
 df = pd.DataFrame(
